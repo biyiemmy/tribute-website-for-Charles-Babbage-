@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    margin: 50px auto;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+figcaption {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: larger;
+}
+
+section {
+    margin: 50px 200px;
+}
+
+section h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+section p {
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section div {
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: left;
+    list-style-position: inside;
+    padding: 20px 10px;
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+}
+
+footer blockquote {
+    font-weight: bolder;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-weight: bold;
+}
